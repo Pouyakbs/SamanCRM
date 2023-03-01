@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SamanCRM.Core.Contracts\SamanCRM.Core.Contracts.csproj" />
+    <ProjectReference Include="..\SamanCRM.Infrastructure.EF\SamanCRM.Infrastructure.EF.csproj" />
+    <ProjectReference Include="..\SamanCRM.Shared\SamanCRM.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

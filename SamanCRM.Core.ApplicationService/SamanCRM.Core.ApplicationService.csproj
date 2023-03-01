@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SamanCRM.Core.Contracts\SamanCRM.Core.Contracts.csproj" />
+    <ProjectReference Include="..\SamanCRM.Core.Domain\SamanCRM.Core.Domain.csproj" />
+    <ProjectReference Include="..\SamanCRM.Infrastructure.Data\SamanCRM.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\SamanCRM.Infrastructure.EF\SamanCRM.Infrastructure.EF.csproj" />
+    <ProjectReference Include="..\SamanCRM.Shared\SamanCRM.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\PersonsFeatures\Commands\" />
+    <Folder Include="Features\PersonsFeatures\Queries\" />
+  </ItemGroup>
+
+</Project>

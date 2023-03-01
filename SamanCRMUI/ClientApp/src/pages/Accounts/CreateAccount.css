@@ -1,0 +1,148 @@
+/* @import "../../../../node_modules/bootstrap/dist/css/bootstrap-grid.css"; */
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
+@import 'devextreme/dist/css/dx.light.css';
+body{
+  direction: rtl;
+}
+.form-design {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.insert-mode .form-design .content {
+  padding: 10px 5px 0;
+  min-height: 30px;
+  font-size: 12px;
+  color: #444;
+}
+.rmdp-container {
+  width: 100%;
+}
+.rmdp-input {
+  border: 1px solid #e1e1e1!important;
+  font-family: "IRANSansWeb!important";
+  padding: 7px 5px!important;
+  font-size: 11px;
+  box-sizing: border-box;
+  max-width: 100% !important;
+  height: 35px!important;
+  width: 100%;
+  border-radius: 0!important;
+  outline: 0;
+}
+.form-design .title {
+  font-size: 11px;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 10px !important;
+}
+#price {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#withoutDiscount {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#finalprice {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.form-design .form-input {
+  border: 1px solid #e1e1e1;
+  font-family: "IRANSansWeb!important";
+  background: #e9ecefd2;
+  padding: 7px 5px;
+  font-size: 11px;
+  box-sizing: border-box;
+  max-width: 100% !important;
+  height: 35px;
+  outline: 0;
+}
+.disabled-form-input {
+  background: #e9ecef6c;
+  border: 1px solid #e1e1e1;
+  padding: 7px 5px;
+  font-size: 11px;
+  box-sizing: border-box;
+  max-width: 100% !important;
+  height: 35px;
+  outline: 0;
+}
+.button-pos {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+}
+#submit {
+  min-width: 100px;
+  background-color: rgb(255, 87, 34);
+  color: rgb(255, 255, 255);
+  border-width: 3px;
+  border-color: rgb(255, 87, 34);
+  border-style: solid;
+  border-radius: 0px;
+  font-family: "IRANSansWeb";
+  font-size: 15px;
+}
+#submit:hover {
+  min-width: 100px;
+  background-color: rgb(234, 68, 18);
+  color: rgb(255, 255, 255);
+  border-width: 3px;
+  border-color: rgb(234, 68, 18);
+  border-style: solid;
+  border-radius: 0px;
+}
+.divModal{
+  position: relative;
+}
+.cancelButton{
+  position: absolute !important;
+  left: 0;
+  top: 0;
+}
+.iconModal{
+  position: absolute !important;
+  left: 10%;
+  top: 0;
+}
+/* .spanCheckBox{
+  position: absolute !important;
+  top:4%;
+  right: 33%;
+} */
+.form-design input[type=checkbox].form-input{
+  width: 20px;
+  height: 20px;
+  margin-left: 7px;
+}
+.star{
+  color: red;
+  margin-right: 7px;
+}
+
+.modal-action-button{
+  display: flex;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
+.modal-action-button button{
+  min-width: 40px;
+  padding: 6px 4px;
+    
+}
+ .modal-action-button button:not(:first-child){
+  margin-right: 5px;
+}
+.calanderButton{
+  position: absolute;
+  left: 2px;
+  bottom: 9px;
+  color: #1976d2;
+}

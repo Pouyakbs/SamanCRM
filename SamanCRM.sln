@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{0010F9A4-8C5F-4342-8BA0-4AE050F3786C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamanCRM.Core.ApplicationService", "SamanCRM.Core.ApplicationService\SamanCRM.Core.ApplicationService.csproj", "{7BF45765-0502-4B7D-8D35-B6824CF1C003}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamanCRM.Core.Contracts", "SamanCRM.Core.Contracts\SamanCRM.Core.Contracts.csproj", "{02FBD40C-F795-4CAB-81FE-A66EBCB981E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamanCRM.Core.Domain", "SamanCRM.Core.Domain\SamanCRM.Core.Domain.csproj", "{75DD9AFD-9D12-429D-8CC0-9E6F98AECF28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamanCRM.Infrastructure.Data", "SamanCRM.Infrastructure.Data\SamanCRM.Infrastructure.Data.csproj", "{34D9129D-1C32-486C-9829-933DA28DC928}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamanCRM.Infrastructure.EF", "SamanCRM.Infrastructure.EF\SamanCRM.Infrastructure.EF.csproj", "{150361AA-F40F-4DEC-8965-960C44C0D48F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SamanCRMUI", "SamanCRMUI\SamanCRMUI.csproj", "{BA3DF18E-1F64-4C95-A3D5-93DDEDE7A6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamanCRM.Shared", "SamanCRM.Shared\SamanCRM.Shared.csproj", "{1D969A68-9002-41E2-AAA2-086672935D3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0010F9A4-8C5F-4342-8BA0-4AE050F3786C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0010F9A4-8C5F-4342-8BA0-4AE050F3786C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0010F9A4-8C5F-4342-8BA0-4AE050F3786C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0010F9A4-8C5F-4342-8BA0-4AE050F3786C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF45765-0502-4B7D-8D35-B6824CF1C003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF45765-0502-4B7D-8D35-B6824CF1C003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF45765-0502-4B7D-8D35-B6824CF1C003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF45765-0502-4B7D-8D35-B6824CF1C003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FBD40C-F795-4CAB-81FE-A66EBCB981E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FBD40C-F795-4CAB-81FE-A66EBCB981E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FBD40C-F795-4CAB-81FE-A66EBCB981E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FBD40C-F795-4CAB-81FE-A66EBCB981E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DD9AFD-9D12-429D-8CC0-9E6F98AECF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DD9AFD-9D12-429D-8CC0-9E6F98AECF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DD9AFD-9D12-429D-8CC0-9E6F98AECF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DD9AFD-9D12-429D-8CC0-9E6F98AECF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D9129D-1C32-486C-9829-933DA28DC928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D9129D-1C32-486C-9829-933DA28DC928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D9129D-1C32-486C-9829-933DA28DC928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D9129D-1C32-486C-9829-933DA28DC928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150361AA-F40F-4DEC-8965-960C44C0D48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150361AA-F40F-4DEC-8965-960C44C0D48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150361AA-F40F-4DEC-8965-960C44C0D48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150361AA-F40F-4DEC-8965-960C44C0D48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3DF18E-1F64-4C95-A3D5-93DDEDE7A6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3DF18E-1F64-4C95-A3D5-93DDEDE7A6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3DF18E-1F64-4C95-A3D5-93DDEDE7A6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3DF18E-1F64-4C95-A3D5-93DDEDE7A6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D969A68-9002-41E2-AAA2-086672935D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D969A68-9002-41E2-AAA2-086672935D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D969A68-9002-41E2-AAA2-086672935D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D969A68-9002-41E2-AAA2-086672935D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEA5BDA4-C678-4116-A121-579754E74411}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.1.66:8080/tfs/crmnew
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ServiceHost\\ServiceHost.csproj
+		SccProjectName1 = ServiceHost
+		SccLocalPath1 = ServiceHost
+		SccProjectUniqueName2 = SamanCRM.Core.ApplicationService\\SamanCRM.Core.ApplicationService.csproj
+		SccProjectName2 = SamanCRM.Core.ApplicationService
+		SccLocalPath2 = SamanCRM.Core.ApplicationService
+		SccProjectUniqueName3 = SamanCRM.Core.Contracts\\SamanCRM.Core.Contracts.csproj
+		SccProjectName3 = SamanCRM.Core.Contracts
+		SccLocalPath3 = SamanCRM.Core.Contracts
+		SccProjectUniqueName4 = SamanCRM.Core.Domain\\SamanCRM.Core.Domain.csproj
+		SccProjectName4 = SamanCRM.Core.Domain
+		SccLocalPath4 = SamanCRM.Core.Domain
+		SccProjectUniqueName5 = SamanCRM.Infrastructure.Data\\SamanCRM.Infrastructure.Data.csproj
+		SccProjectName5 = SamanCRM.Infrastructure.Data
+		SccLocalPath5 = SamanCRM.Infrastructure.Data
+		SccProjectUniqueName6 = SamanCRM.Infrastructure.EF\\SamanCRM.Infrastructure.EF.csproj
+		SccProjectName6 = SamanCRM.Infrastructure.EF
+		SccLocalPath6 = SamanCRM.Infrastructure.EF
+		SccProjectUniqueName7 = SamanCRMUI\\SamanCRMUI.csproj
+		SccProjectName7 = SamanCRMUI
+		SccLocalPath7 = SamanCRMUI
+		SccProjectUniqueName8 = SamanCRM.Shared\\SamanCRM.Shared.csproj
+		SccProjectName8 = SamanCRM.Shared
+		SccLocalPath8 = SamanCRM.Shared
+	EndGlobalSection
+EndGlobal
